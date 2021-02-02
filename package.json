@@ -1,0 +1,28 @@
+{
+  "name": "testjenkins",
+  "version": "1.0.0",
+  "description": "Simple node.js app that servers \"hello world\"",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "is-regex": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha 'test/**/*.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanjain-1997/testjenkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanjain-1997/testjenkins/issues"
+  },
+  "homepage": "https://github.com/amanjain-1997/testjenkins#readme"
+}
